@@ -1,0 +1,14 @@
+
+
+
+input + #email + #Help{
+    display: none;
+}
+input:valid + #email{
+    display: none;
+}
+input:valid +#email + #Help{
+    display: inline;
+}
+
+
